@@ -1,12 +1,3 @@
-import sys
-import centuryFromYear
-
-year = int(input())
-
-# print("year : ", year)
-print((year))
-
-
 import centuryFromYear
 
 def test_centuryFromYear_1():
