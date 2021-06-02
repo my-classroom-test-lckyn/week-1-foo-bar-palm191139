@@ -1,3 +1,3 @@
 def centuryFromYear(year):
     # code here
-    return
+    return year // 100 + 1
