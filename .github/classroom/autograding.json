@@ -3,12 +3,62 @@
     {
       "name": "1_1",
       "setup": "",
-      "run": "python3 ./test/test_1.py",
+      "run": "python3 test_1.py",
       "input": "",
       "output": "Hello, World!",
       "comparison": "included",
       "timeout": 1,
       "points": 10
+    },
+    {
+      "name": "2_1",
+      "setup": "",
+      "run": "python3 test_2.py",
+      "input": "1\r\n2",
+      "output": "3",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 100
+    },
+    {
+      "name": "2_2",
+      "setup": "",
+      "run": "python3 test_2.py",
+      "input": "5\r\n3",
+      "output": "8",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 100
+    },
+    {
+      "name": "2_3",
+      "setup": "",
+      "run": "python3 test_2.py",
+      "input": "10\r\n50",
+      "output": "60",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    },
+    {
+      "name": "2_4",
+      "setup": "",
+      "run": "python3 test_2.py",
+      "input": "123\r\n321",
+      "output": "444",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 100
+    },
+    {
+      "name": "2_5",
+      "setup": "",
+      "run": "python3 test_2.py",
+      "input": "0\r\n400000",
+      "output": "400000",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 100
     }
   ]
 }
