@@ -59,6 +59,56 @@
       "comparison": "included",
       "timeout": 1,
       "points": 100
+    },
+    {
+      "name": "3_1",
+      "setup": "",
+      "run": "python3 test_3.py",
+      "input": "1905",
+      "output": "20",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 100
+    },
+    {
+      "name": "3_2",
+      "setup": "",
+      "run": "python3 test_3.py",
+      "input": "1700",
+      "output": "17",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 100
+    },
+    {
+      "name": "3_3",
+      "setup": "",
+      "run": "python3 test_3.py",
+      "input": "2000",
+      "output": "20",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 100
+    },
+    {
+      "name": "3_4",
+      "setup": "",
+      "run": "python3 test_3.py",
+      "input": "1",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 100
+    },
+    {
+      "name": "3_5",
+      "setup": "",
+      "run": "python3 test_3.py",
+      "input": "100",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 100
     }
   ]
 }
