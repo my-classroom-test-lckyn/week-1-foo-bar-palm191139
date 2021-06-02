@@ -1,23 +1,33 @@
 {
   "tests": [
     {
-      "name": "1_1",
+      "name": "1",
       "setup": "sudo -H pip3 install pytest",
       "run": "pytest test_hello_world.py",
       "input": "",
       "output": "",
       "comparison": "included",
-      "timeout": 1,
+      "timeout": 2,
       "points": 100
     },
     {
-      "name": "2_1",
+      "name": "2",
       "setup": "sudo -H pip3 install pytest",
       "run": "pytest test_add.py",
       "input": "",
       "output": "",
       "comparison": "included",
-      "timeout": 1,
+      "timeout": 2,
+      "points": 10000
+    },
+    {
+      "name": "3",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_centuryFromYear.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
       "points": 10000
     }
   ]
